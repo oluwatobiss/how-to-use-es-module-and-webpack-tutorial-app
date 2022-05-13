@@ -7,5 +7,5 @@ RUN apt update &&\
 	bash nodesource_setup.sh &&\
 	apt install -y nodejs
 
-RUN	git clone https://github.com/oluwatobiss/edpresso-how-to-use-es-module-and-webpack &&\
-	cd edpresso-how-to-use-es-module-and-webpack && npm install
+RUN	git clone https://github.com/oluwatobiss/how-to-use-es-module-and-webpack-tutorial-app &&\
+	cd how-to-use-es-module-and-webpack-tutorial-app && npm install
